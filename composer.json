@@ -9,17 +9,17 @@
         "patches": {
             "knplabs/gaufrette": {
                 "dev-master": {
-                    "4c849ee6aa5088bf3562a4075daecf77063bc641": {
+                    "dropbox-adapter-path-parameter": {
                         "title": "[FEATURE] Path parameter for Dropbox Adapter",
-                        "url": "https://github.com/igormukhingmailcom/Gaufrette/commit/4c849ee6aa5088bf3562a4075daecf77063bc641.patch"
+                        "url": "https://github.com/KnpLabs/Gaufrette/compare/master...igormukhingmailcom:dropbox-adapter-path-parameter.patch"
                     }
                 }
             },
             "knplabs/knp-gaufrette-bundle": {
                 "dev-master": {
-                    "862498d86c25fff1bda63f1432efa2db5352f98e": {
+                    "dropbox-path-definition": {
                         "title": "[FEATURE] Added path parameter definition to DropboxAdapterFactory",
-                        "url": "https://github.com/igormukhingmailcom/KnpGaufretteBundle/commit/862498d86c25fff1bda63f1432efa2db5352f98e.patch"
+                        "url": "https://github.com/KnpLabs/KnpGaufretteBundle/compare/master...igormukhingmailcom:dropbox-path-definition.patch"
                     }
                 }
             }
