@@ -1,6 +1,6 @@
 {
     "name": "igormukhingmailcom/gaufrette-patches",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "type": "patches",
     "require": {
         "netresearch/composer-patches-plugin": "~1.0"
@@ -9,16 +9,16 @@
         "patches": {
             "knplabs/gaufrette": {
                 "dev-master": {
-                    "dropbox-adapter-path-parameter": {
-                        "title": "[FEATURE] Path parameter for Dropbox Adapter",
+                    "90ade2fee385a6a6a5d55bc5636f6db8ac4600d1": {
+                        "title": "[FEATURE] Path & limit parameter for Dropbox Adapter",
                         "url": "https://github.com/KnpLabs/Gaufrette/compare/master...igormukhingmailcom:dropbox-adapter-path-parameter.patch"
                     }
                 }
             },
             "knplabs/knp-gaufrette-bundle": {
                 "dev-master": {
-                    "dropbox-path-definition": {
-                        "title": "[FEATURE] Added path parameter definition to DropboxAdapterFactory",
+                    "111d568eae38faa702aa0e9c9df717b19c663fbc": {
+                        "title": "[FEATURE] Added path & limit parameter definition to DropboxAdapterFactory",
                         "url": "https://github.com/KnpLabs/KnpGaufretteBundle/compare/master...igormukhingmailcom:dropbox-path-definition.patch"
                     }
                 }
